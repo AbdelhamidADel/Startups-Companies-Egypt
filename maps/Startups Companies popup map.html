@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ecd4ed30cf136b455a89663d7c1d1f23 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ecd4ed30cf136b455a89663d7c1d1f23" ></div>
+        
+</body>
+<script>    
+    
+            var map_ecd4ed30cf136b455a89663d7c1d1f23 = L.map(
+                "map_ecd4ed30cf136b455a89663d7c1d1f23",
+                {
+                    center: [26.599416634038008, 29.79079280451039],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_ecd4ed30cf136b455a89663d7c1d1f23);
+
+            
+
+        
+    
+            var tile_layer_781bb0f496706465d8c1feea4e73fce2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ecd4ed30cf136b455a89663d7c1d1f23);
+        
+    
+            var circle_625e84e5e1ad79e2ac288cf3694901aa = L.circle(
+                [30.04442, 31.235712],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 44000.0, "stroke": true, "weight": 3}
+            ).addTo(map_ecd4ed30cf136b455a89663d7c1d1f23);
+        
+    
+        var popup_37939df9215d67520a668ecee1822d61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_935994dc1a02ff2c72083e09e03a9442 = $(`<div id="html_935994dc1a02ff2c72083e09e03a9442" style="width: 100.0%; height: 100.0%;">44 Company In Cairo</div>`)[0];
+            popup_37939df9215d67520a668ecee1822d61.setContent(html_935994dc1a02ff2c72083e09e03a9442);
+        
+
+        circle_625e84e5e1ad79e2ac288cf3694901aa.bindPopup(popup_37939df9215d67520a668ecee1822d61)
+        ;
+
+        
+    
+    
+            var circle_eb549466df88c8fbced4b62d49986f24 = L.circle(
+                [31.200092, 29.918739],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18000.0, "stroke": true, "weight": 3}
+            ).addTo(map_ecd4ed30cf136b455a89663d7c1d1f23);
+        
+    
+        var popup_b441d8ca45d43411bf9bd71879d5e5e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed090708a8b8758c131c152574dc56c7 = $(`<div id="html_ed090708a8b8758c131c152574dc56c7" style="width: 100.0%; height: 100.0%;">18 Company In Alexandria</div>`)[0];
+            popup_b441d8ca45d43411bf9bd71879d5e5e0.setContent(html_ed090708a8b8758c131c152574dc56c7);
+        
+
+        circle_eb549466df88c8fbced4b62d49986f24.bindPopup(popup_b441d8ca45d43411bf9bd71879d5e5e0)
+        ;
+
+        
+    
+    
+            var circle_3283879b7b1c0c074814bebb4cc81400 = L.circle(
+                [27.222556, 33.8307062],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000.0, "stroke": true, "weight": 3}
+            ).addTo(map_ecd4ed30cf136b455a89663d7c1d1f23);
+        
+    
+        var popup_b4f49e3a59fdfc3269f6237a1fa81972 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67ddb8ba4e4326c1e3b9a5cc361e3015 = $(`<div id="html_67ddb8ba4e4326c1e3b9a5cc361e3015" style="width: 100.0%; height: 100.0%;">1 Company In Hurghada</div>`)[0];
+            popup_b4f49e3a59fdfc3269f6237a1fa81972.setContent(html_67ddb8ba4e4326c1e3b9a5cc361e3015);
+        
+
+        circle_3283879b7b1c0c074814bebb4cc81400.bindPopup(popup_b4f49e3a59fdfc3269f6237a1fa81972)
+        ;
+
+        
+    
+    
+            var circle_4b6cd4f181abebf28b9cd2940337bb87 = L.circle(
+                [30.5853431, 31.5035127],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000.0, "stroke": true, "weight": 3}
+            ).addTo(map_ecd4ed30cf136b455a89663d7c1d1f23);
+        
+    
+        var popup_782040b8dc2700bc79f28957a3648888 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d37bba9380d647e22f0c86f69cd8c2a = $(`<div id="html_0d37bba9380d647e22f0c86f69cd8c2a" style="width: 100.0%; height: 100.0%;">1 Company In Al-Zaqaziq</div>`)[0];
+            popup_782040b8dc2700bc79f28957a3648888.setContent(html_0d37bba9380d647e22f0c86f69cd8c2a);
+        
+
+        circle_4b6cd4f181abebf28b9cd2940337bb87.bindPopup(popup_782040b8dc2700bc79f28957a3648888)
+        ;
+
+        
+    
+    
+            var circle_bdb7645465c52a949af86be87d3698f8 = L.circle(
+                [30.013056, 31.208853],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9000.0, "stroke": true, "weight": 3}
+            ).addTo(map_ecd4ed30cf136b455a89663d7c1d1f23);
+        
+    
+        var popup_ac5f24e61ceaa7ce46b2bf0a8cfb8d07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5846396f4e42e4c5412cc7f605316c57 = $(`<div id="html_5846396f4e42e4c5412cc7f605316c57" style="width: 100.0%; height: 100.0%;">9 Company In Giza</div>`)[0];
+            popup_ac5f24e61ceaa7ce46b2bf0a8cfb8d07.setContent(html_5846396f4e42e4c5412cc7f605316c57);
+        
+
+        circle_bdb7645465c52a949af86be87d3698f8.bindPopup(popup_ac5f24e61ceaa7ce46b2bf0a8cfb8d07)
+        ;
+
+        
+    
+</script>
