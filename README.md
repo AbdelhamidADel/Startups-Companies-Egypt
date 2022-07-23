@@ -1,4 +1,4 @@
-# ---------- Startups-Software-Development-Egypt ----------
+# ---------- Startups-Software-Development-Egypt ---------
 <p align="center">
   <img 
     width="900"
